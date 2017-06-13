@@ -6,7 +6,7 @@ require 'sprockets/sinatra/version'
 Gem::Specification.new do |spec|
   spec.name          = "sprockets-sinatra"
   spec.version       = Sprockets::Sinatra::VERSION
-  spec.authors       = ["chenillen"]
+  spec.authors       = ["Allen Chan"]
   spec.email         = ["chenillen@gmail.com"]
 
   spec.summary       = %q{Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.}
@@ -26,6 +26,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["lib"]
 
   spec.add_development_dependency "bundler", "~> 1.11"
-  spec.add_development_dependency "rake", "~> 10.0"
+  spec.add_development_dependency "rake", "~> 11.2"
   spec.add_development_dependency "rspec", "~> 3.0"
+  spec.add_dependency 'rake', '~> 11.2'
+  spec.add_dependency 'sinatra', '~> 1.4'
+  spec.add_dependency 'sass', '~> 3.4'
+  spec.add_dependency 'coffee-script', '~> 2.4'
+  spec.add_dependency 'sprockets', '~> 3.6'
+  spec.add_dependency 'sprockets-helpers', '~> 1.1'
 end
