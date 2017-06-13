@@ -1,2 +1,2 @@
 $LOAD_PATH.unshift File.expand_path('../../lib', __FILE__)
-require 'sprockets/sinatra'
+require 'sinatra/sprockets'

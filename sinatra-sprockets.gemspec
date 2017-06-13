@@ -1,17 +1,17 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'sprockets/sinatra/version'
+require 'sinatra/sprockets/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sprockets-sinatra"
-  spec.version       = Sprockets::Sinatra::VERSION
+  spec.name          = "sinatra-sprockets"
+  spec.version       = Sinatra::Sprockets::VERSION
   spec.authors       = ["Allen Chan"]
   spec.email         = ["chenillen@gmail.com"]
 
   spec.summary       = %q{Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.}
   spec.description   = %q{Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.}
-  spec.homepage      = "https://github.com/chenillen/sprockets-sinatra"
+  spec.homepage      = "https://github.com/chenillen/sinatra-sprockets"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org by setting 'allowed_push_host', or

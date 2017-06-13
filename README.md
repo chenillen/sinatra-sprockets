@@ -1,4 +1,4 @@
-# Sprockets::Sinatra
+# Sinatra::Sprockets
 Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.
 
 
@@ -7,7 +7,7 @@ Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipelin
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sprockets-sinatra', require: 'sprockets/sinatra'
+gem 'sinatra-sprockets', require: 'sinatra/sprockets'
 ```
 
 And then execute:
@@ -28,7 +28,7 @@ Or install it yourself as:
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/chenillen/sprockets-sinatra. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/chenillen/sinatra-sprockets. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 
 ## License
