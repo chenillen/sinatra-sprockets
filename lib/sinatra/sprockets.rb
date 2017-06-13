@@ -1,7 +1,11 @@
-require "sinatra/sprockets/version"
+require 'sprockets'
+require 'sprockets/helpers'
+require 'sprockets/version'
 
 module Sinatra
   module Sprockets
-    # Your code goes here...
+    def self.registered(app)
+      app.set_default :sprockets, ::Sprockets::Environment.new
+    end
   end
 end

@@ -5,6 +5,10 @@ describe Sinatra::Sprockets do
     expect(Sinatra::Sprockets::VERSION).not_to be nil
   end
 
+  it 'has a 0.1.1 version' do
+    expect(Sinatra::Sprockets::VERSION).to eq '0.1.1'
+  end
+
   it 'does something useful' do
     expect(true).to eq(true)
   end
