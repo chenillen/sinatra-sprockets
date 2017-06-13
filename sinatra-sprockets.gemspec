@@ -4,13 +4,13 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'sinatra/sprockets/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "sinatra-sprockets"
+  spec.name          = "sprockets-sinatra"
   spec.version       = Sinatra::Sprockets::VERSION
   spec.authors       = ["Allen Chan"]
   spec.email         = ["chenillen@gmail.com"]
 
   spec.summary       = %q{Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.}
-  spec.description   = %q{Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.}
+  spec.description   = %q{Name of the gem would be sinatra-sprockets. The name was token. Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipeline.}
   spec.homepage      = "https://github.com/chenillen/sinatra-sprockets"
   spec.license       = "MIT"
 

@@ -7,7 +7,7 @@ Provides Sprockets implementation for Sinatra 1.x, 2.x(and beyond) Asset Pipelin
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'sinatra-sprockets', require: 'sinatra/sprockets'
+gem 'sprockets-sinatra', require: 'sinatra/sprockets'
 ```
 
 And then execute:
@@ -16,7 +16,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install sinatra-sprockets
+    $ gem install sprockets-sinatra
 
 ## Usage
 
